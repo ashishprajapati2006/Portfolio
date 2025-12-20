@@ -45,15 +45,15 @@ const About = () => {
             </CardContent>
           </Card>
 
-          <div className="grid md:grid-cols-3 gap-6">
+          <div className="grid md:grid-cols-3 gap-6 perspective-1000">
             {highlights.map((item, index) => (
               <Card 
                 key={index}
-                className="shadow-card border-none bg-card/50 backdrop-blur-sm hover:shadow-glow transition-all duration-300 hover:-translate-y-2 animate-fade-in-up"
+                className="card-3d shadow-card border-none bg-card/50 backdrop-blur-sm hover:shadow-glow transition-all duration-300 animate-fade-in-up"
                 style={{ animationDelay: `${index * 0.1}s` }}
               >
                 <CardContent className="p-6 text-center">
-                  <div className="w-16 h-16 bg-gradient-primary rounded-full flex items-center justify-center mx-auto mb-4">
+                  <div className="w-16 h-16 bg-gradient-primary rounded-full flex items-center justify-center mx-auto mb-4 glow-effect">
                     <item.icon className="h-8 w-8 text-primary-foreground" />
                   </div>
                   <h3 className="text-xl font-bold text-foreground mb-2">{item.title}</h3>

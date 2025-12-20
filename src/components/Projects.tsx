@@ -41,11 +41,11 @@ const Projects = () => {
           <div className="w-20 h-1 bg-gradient-primary mx-auto rounded-full" />
         </div>
 
-        <div className="max-w-6xl mx-auto grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="max-w-6xl mx-auto grid md:grid-cols-2 lg:grid-cols-3 gap-8 perspective-1000">
           {projects.map((project, index) => (
             <Card 
               key={index}
-              className="shadow-card border-none bg-card/50 backdrop-blur-sm hover:shadow-glow transition-all duration-300 hover:-translate-y-2 overflow-hidden group animate-fade-in-up"
+              className="card-3d shadow-card border-none bg-card/50 backdrop-blur-sm hover:shadow-glow transition-all duration-300 overflow-hidden group animate-fade-in-up"
               style={{ animationDelay: `${index * 0.1}s` }}
             >
               <div 
