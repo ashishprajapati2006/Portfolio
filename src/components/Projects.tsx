@@ -26,7 +26,7 @@ const Projects = () => {
       description: "ML models to predict student exam scores across multiple algorithms, with Flask and Streamlit apps for testing and demonstration",
       technologies: ["Python", "Machine Learning", "Flask", "Streamlit"],
       github: "https://github.com/ashishprajapati2006/student-performance-flask",
-      demo: "https://student-performance-flask.onrender.com/predictdata",
+      demo: "https://student-exam.streamlit.app/",
       image: "https://miaoda-site-img.s3cdn.medo.dev/images/f1f082f0-8e13-4fb6-81f2-1f39c80b054c.jpg"
     }
   ];
