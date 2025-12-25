@@ -42,23 +42,17 @@ A modern, professional portfolio website for Ashish Prajapati, showcasing his sk
 - Project cards with images, descriptions, tech stack
 - Links to GitHub and live demos
 
-### 7. Education Section (`src/components/Education.tsx`)
-- B.Tech in Information Technology
-- Rajasthan Technical University
-- CGPA display
-- Location and graduation date
-
-### 8. Achievements Section (`src/components/Achievements.tsx`)
+### 7. Achievements Section (`src/components/Achievements.tsx`)
 - Three national hackathon finalist achievements
 - Four certifications with external links
 - Separate sections for achievements and certifications
 
-### 9. Contact Section (`src/components/Contact.tsx`)
+### 8. Contact Section (`src/components/Contact.tsx`)
 - Contact information cards (Email, Phone, LinkedIn, GitHub)
 - Contact form (front-end only)
 - Social media links
 
-### 10. Footer Component (`src/components/Footer.tsx`)
+### 9. Footer Component (`src/components/Footer.tsx`)
 - Quick navigation links
 - Social media icons
 - Copyright notice
@@ -107,7 +101,6 @@ src/
 │   ├── Skills.tsx
 │   ├── Experience.tsx
 │   ├── Projects.tsx
-│   ├── Education.tsx
 │   ├── Achievements.tsx
 │   ├── Contact.tsx
 │   └── Footer.tsx
